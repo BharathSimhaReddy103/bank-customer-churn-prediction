@@ -14,7 +14,7 @@ st.write("Predict customer churn probability and assign risk category.")
 model = joblib.load("models/churn_model.pkl")
 scaler = joblib.load("models/scaler.pkl")
 features = joblib.load("models/features.pkl")
-st.write(features)
+#st.write(features)
 
 st.success("Model loaded successfully!")
 
